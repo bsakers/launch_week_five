@@ -1,0 +1,7 @@
+---
+title: "AR: Validations"
+type: "exercise"
+description: "Validation practice with ActiveRecord."
+tags: "validations, activerecord"
+ignore:
+- "ar-validations.md"

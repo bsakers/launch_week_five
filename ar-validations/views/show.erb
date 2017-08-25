@@ -1,0 +1,12 @@
+
+<h1>
+  <%= @recipe.title%>
+</h1>
+
+<ul>
+  <% @comments.each do |comment| %>
+    <li>
+      <%=comment.comment%>
+    </li>
+  <% end %>
+</ul>

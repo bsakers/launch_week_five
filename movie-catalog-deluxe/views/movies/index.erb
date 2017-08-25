@@ -1,0 +1,15 @@
+<ul>
+  <% @movies_array.each do |movie| %>
+    <li>
+      <a href="/movies/<%=movie["id"]%>">
+        <%=movie["movie"]%>
+
+      </a>
+      <p>
+      Release Date:<%=movie["year"]%>
+      Rating: <%=movie["rating"]%>
+      Sudio: <%=movie["studio"]%>
+      </p>
+    </li>
+  <% end %>
+</ul>
